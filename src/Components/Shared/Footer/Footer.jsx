@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-div">
-        <div data-aos="zoom-out-up" data-aos-duration="2000">
+        <div>
           <a href="#" className="footer-heading">
             Categories
           </a>
@@ -21,7 +21,7 @@ const Footer = () => {
             Robotic-Automation
           </a>
         </div>
-        <div data-aos="zoom-in-left" data-aos-duration="2000">
+        <div>
           <a href="#" className="footer-heading">
             Contact
           </a>

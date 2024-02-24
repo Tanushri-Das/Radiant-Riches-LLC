@@ -74,8 +74,7 @@ const Banner = () => {
   ];
 
   return (
-    <div className="banner" data-aos="zoom-in"
-    data-aos-duration="2000">
+    <div className="banner">
       {cardData.map((card) => (
         <div key={card.id} className="banner-row">
           {card.buttontext && (

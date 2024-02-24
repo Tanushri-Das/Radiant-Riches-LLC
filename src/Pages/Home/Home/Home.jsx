@@ -9,15 +9,13 @@ import SignUp from "./SignUp/SignUp";
 const Home = () => {
   return (
     <div className="home">
-      <p className="heading" data-aos="fade-right" data-aos-duration="1000">
+      <p className="heading">
         Best Website builders in the US
       </p>
       <div className="border"></div>
       <div className="clock-select">
         <div
           className="clock-div clock-div-sm"
-          data-aos="fade-down-right"
-          data-aos-duration="2000"
         >
           <div className="clock-div-content">
             <img className="clock" src={clock} alt="" />
@@ -32,8 +30,6 @@ const Home = () => {
         </div>
         <div
           className="select-div"
-          data-aos="fade-down-left"
-          data-aos-duration="2000"
         >
           <select className="select-relevant">
             <option value="volvo">Top Relevant</option>
@@ -41,7 +37,7 @@ const Home = () => {
         </div>
       </div>
       <div className="border"></div>
-      <div className="tab" data-aos="zoom-in" data-aos-duration="2000">
+      <div className="tab">
         <button className="tab-btn tab-gap">Tools</button>
         <button className="tab-btn tab-gap">AWS Builder</button>
         <button className="tab-btn tab-gap">Start Build</button>
@@ -51,8 +47,6 @@ const Home = () => {
       </div>
       <div
         className="tab-content"
-        data-aos="fade-down-right"
-        data-aos-duration="2000"
       >
         <p className="vector-left">Home</p>
         <img className="vector-icon vector-right" src={vector} alt="" />

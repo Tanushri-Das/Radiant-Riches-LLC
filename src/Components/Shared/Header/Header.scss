@@ -26,7 +26,7 @@
       padding: 0 200px;
     }
     @media screen and (min-width: 1500px) {
-      padding: 0 400px;
+      padding: 0 380px;
     }
   }
 
@@ -45,6 +45,7 @@
       width: 100%;
       border: 1px solid rgba(225, 228, 230, 1);
       height: 22px;
+      letter-spacing: 0.7px;
     }
 
     .search-icon {
@@ -92,11 +93,23 @@
       text-wrap: nowrap;
       transition: color 0.3s;
       line-height: 20px;
+      position: relative;
 
       &:hover {
         color: white;
-        margin-top: 3px;
-        border-bottom: 1px solid rgba(255, 119, 36, 1);
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 1);
+        transition: width 0.3s;
+      }
+      &:hover::before {
+        width: 100%;
       }
     }
   }

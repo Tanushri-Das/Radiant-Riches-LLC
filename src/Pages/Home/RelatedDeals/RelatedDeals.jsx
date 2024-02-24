@@ -6,14 +6,11 @@ import cardImg from "../../../assets/banner1.png";
 const RelatedDeals = () => {
   return (
     <div className="main">
-      <p className="main-heading" data-aos="zoom-in" data-aos-duration="2000">
+      <p className="main-heading">
         Related deals you might like for
       </p>
       <div
         className="all-card"
-        data-aos="fade-up"
-        data-aos-anchor-placement="top-center"
-        data-aos-duration="2000"
       >
         <Card
           image={cardImg}
